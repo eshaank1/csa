@@ -1,8 +1,9 @@
 ---
 layout: base
-title: Student Home 
+title: Eshaan Kumar's CSA Student Blog 
 description: Home Page
 hide: true
 ---
 
-My journey starts here.
+# Eshaan Kumar
+## CSA Student Blog

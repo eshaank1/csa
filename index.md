@@ -7,3 +7,5 @@ hide: true
 
 # Eshaan Kumar
 ## CSA Student Blog
+
+![Alt text](images/aboutme.jpg)

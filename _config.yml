@@ -5,7 +5,7 @@ github_username: eshaank1
 github_repo: "csa" 
 baseurl: "/csa"
 future: true
-remote_theme: jekyll/minima
+remote_theme: pages-themes/midnight@v0.2.0
 minima:
   skin: dark
   social_links:

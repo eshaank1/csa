@@ -42,7 +42,7 @@ hide: true
 
     <script>
         const players = [
-            "Russel Wilson",
+            "Russell Wilson",
             "Najee Harris",
             "George Pickens",
             "T.J. Watt",

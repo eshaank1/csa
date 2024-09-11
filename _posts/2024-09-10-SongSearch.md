@@ -3,8 +3,8 @@ toc: true
 comments: false
 layout: post
 title: Song Search
-type: plans
-courses: { compsci: {week: 0} }
+type: hacks
+courses: { compsci: {week: 2} }
 ---
 
 <html lang="en">

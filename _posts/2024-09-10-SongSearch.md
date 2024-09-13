@@ -7,6 +7,9 @@ type: hacks
 courses: { compsci: {week: 2} }
 ---
 
+Plan: Make a song selecter using the iTunes API that will pull songs off a query and give previews of them
+Accomplished: Exactly what I planned, except the formatting is still a bit off (Working on this)
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">

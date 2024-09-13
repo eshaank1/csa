@@ -62,6 +62,27 @@ hide: true
     </script>
 </body>
 
+<button id="notebooks" onclick='toggleNotebooks()'>Open Notebooks</button>
+
+<div id="notebook">
+  <button onclick='window.location.href="{{ site.baseurl }}/2024/09/10/SongSearch.html"'>iTunes Music Finder</button>
+  <br>
+  <button onclick='window.location.href="{{ site.baseurl }}/2024/09/12/HTMLBasics_IPYNB_2_.html"'>HTML Basics</button>
+  <br>
+  <button onclick='window.location.href="{{ site.baseurl }}/about"'>About Me</button>
+</div>
+
+<script>
+    function toggleNotebooks() {
+    const container = document.getElementById("notebook");
+
+    if(container.style.display == "none") {
+      container.style.display = "block";
+    } else {
+      container.style.display = "none";
+    }
+  }
+</script>
 
 <style> 
 @import url('https://fonts.googleapis.com/css2?family=Roboto');

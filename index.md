@@ -10,6 +10,46 @@ hide: true
 
 ![Alt text](images/aboutme.jpg)
 
+<!-- Theme Switcher Button -->
+<button id="themeSwitcher" onclick="switchTheme()">Switch Theme</button>
+
+<div id="playerDisplay"></div>
+
+<script>
+    const players = [
+        "Russell Wilson",
+        "Najee Harris",
+        "George Pickens",
+        "T.J. Watt",
+        "Minkah Fitzpatrick",
+        "Cam Heyward",
+        "Pat Freiermuth",
+        "Justin Fields",
+        "Joey Porter Jr.",
+        "Alex Highsmith"
+    ];
+
+    function displayRandomPlayer() {
+        const randomIndex = Math.floor(Math.random() * players.length);
+        const selectedPlayer = players[randomIndex];
+        document.getElementById("playerDisplay").innerText = selectedPlayer;
+    }
+
+    // Theme Switching Functionality
+    let isDarkTheme = true;
+
+    function switchTheme() {
+        const themeLink = document.getElementById('themeStylesheet');
+        if (isDarkTheme) {
+            themeLink.setAttribute('href', '{{ site.baseurl }}/assets/lighttheme.css');
+            isDarkTheme = false;
+        } else {
+            themeLink.setAttribute('href', '{{ site.baseurl }}/assets/darktheme.css');
+            isDarkTheme = true;
+        }
+    }
+</script>
+
 <style>
     body {
         font-family: Arial, sans-serif;
@@ -19,52 +59,23 @@ hide: true
         justify-content: center;
         height: 100vh;
         margin: 0;
-        background-color: black; /* Optional: black background for contrast */
     }
     button {
         padding: 10px 20px;
         font-size: 16px;
         cursor: pointer;
-        background-color: yellow; /* Optional: yellow button */
-        border: none;
+        margin-bottom: 20px;
     }
     #playerDisplay {
         margin-top: 20px;
         font-size: 24px;
         font-weight: bold;
-        color: yellow; /* Bright yellow text color */
     }
 </style>
-<body>
-<button onclick="displayRandomPlayer()">Pick a Player</button>
-
-    <div id="playerDisplay"></div>
-
-    <script>
-        const players = [
-            "Russell Wilson",
-            "Najee Harris",
-            "George Pickens",
-            "T.J. Watt",
-            "Minkah Fitzpatrick",
-            "Cam Heyward",
-            "Pat Freiermuth",
-            "Justin Fields",
-            "Joey Porter Jr.",
-            "Alex Highsmith"
-        ];
-
-        function displayRandomPlayer() {
-            const randomIndex = Math.floor(Math.random() * players.length);
-            const selectedPlayer = players[randomIndex];
-            document.getElementById("playerDisplay").innerText = selectedPlayer;
-        }
-    </script>
-</body>
 
 <button id="notebooks" onclick='toggleNotebooks()'>Open Notebooks</button>
 
-<div id="notebook">
+<div id="notebook" style="display:none;">
   <button onclick='window.location.href="{{ site.baseurl }}/2024/09/10/SongSearch.html"'>iTunes Music Finder</button>
   <br>
   <button onclick='window.location.href="{{ site.baseurl }}/2024/09/12/HTMLBasics_IPYNB_2_.html"'>HTML Basics</button>
@@ -74,15 +85,13 @@ hide: true
 
 <script>
     function toggleNotebooks() {
-    const container = document.getElementById("notebook");
-
-    if(container.style.display == "none") {
-      container.style.display = "block";
-    } else {
-      container.style.display = "none";
+        const container = document.getElementById("notebook");
+        container.style.display = container.style.display === "none" ? "block" : "none";
     }
-  }
 </script>
+
+<!-- Link to the initial theme stylesheet (dark-theme by default) -->
+<link id="themeStylesheet" rel="stylesheet" href="{{ site.baseurl }}/assets/css/dark-theme.css">
 
 <style> 
 @import url('https://fonts.googleapis.com/css2?family=Roboto');

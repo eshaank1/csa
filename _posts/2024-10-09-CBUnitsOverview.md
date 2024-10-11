@@ -68,9 +68,9 @@ type: hacks
         <div class="unit" id="unit1">
             <h2>Unit 1: Primitive Types</h2>
             <ul>
-                <li>Data Types: Understand primitive data types (int, double, char, boolean) and their characteristics.</li>
-                <li>Variable Declaration: Learn to initialize variables of different primitive types.</li>
-                <li>Type Conversion: Implicit and explicit type conversion.</li>
+                <li><strong>Data Types:</strong> Understand primitive data types (int, double, char, boolean) and their characteristics.</li>
+                <li><strong>Variable Declaration:</strong> Learn to initialize variables of different primitive types.</li>
+                <li><strong>Type Conversion:</strong> Implicit and explicit type conversion.</li>
             </ul>
             <button class="info-btn" data-link="https://eshaank1.github.io/csa/csa/unit1/intro">More Info</button>
         </div>
@@ -78,9 +78,9 @@ type: hacks
         <div class="unit" id="unit2">
             <h2>Unit 2: Using Objects</h2>
             <ul>
-                <li>Object Creation: Understand how to create and use objects, including calling methods.</li>
-                <li>Method Return Types: Learn about void and non-void return types in method definitions.</li>
-                <li>Wrapper Classes: Explore wrapper classes for primitive types (e.g., Integer, Double).</li>
+                <li><strong>Object Creation:</strong> Understand how to create and use objects, including calling methods.</li>
+                <li><strong>Method Return Types:</strong> Learn about void and non-void return types in method definitions.</li>
+                <li><strong>Wrapper Classes:</strong> Explore wrapper classes for primitive types (e.g., Integer, Double).</li>
             </ul>
             <button class="info-btn" data-link="https://eshaank1.github.io/csa/csa/unit2/period3/home/">More Info</button>
         </div>
@@ -88,9 +88,9 @@ type: hacks
         <div class="unit" id="unit3">
             <h2>Unit 3: Boolean Expressions and if Statements</h2>
             <ul>
-                <li>Boolean Logic: Understand boolean expressions and their evaluation.</li>
-                <li>Conditional Statements: Implement if, else if, and switch statements to control program flow.</li>
-                <li>Loops: Use while and for loops to handle repetitive tasks in code.</li>
+                <li><strong>Boolean Logic:</strong> Understand boolean expressions and their evaluation.</li>
+                <li><strong>Conditional Statements:</strong> Implement if, else if, and switch statements to control program flow.</li>
+                <li><strong>Loops:</strong> Use while and for loops to handle repetitive tasks in code.</li>
             </ul>
             <button class="info-btn" data-link="https://eshaank1.github.io/csa/csa/unit3-p1/unit3-1">More Info</button>
         </div>
@@ -98,9 +98,9 @@ type: hacks
         <div class="unit" id="unit5">
             <h2>Unit 5: Writing Classes</h2>
             <ul>
-                <li>Class Definition: Learn how to define classes, including fields and methods.</li>
-                <li>Encapsulation: Understand the principles of encapsulation and data hiding using access modifiers.</li>
-                <li>Constructors: Explore how to create and use constructors for initializing objects.</li>
+                <li><strong>Class Definition:</strong> Learn how to define classes, including fields and methods.</li>
+                <li><strong>Encapsulation:</strong> Understand the principles of encapsulation and data hiding using access modifiers.</li>
+                <li><strong>Constructors:</strong> Explore how to create and use constructors for initializing objects.</li>
             </ul>
             <button class="info-btn" data-link="https://eshaank1.github.io/csa/csa/period1/unit5/intro">More Info</button>
         </div>
@@ -108,9 +108,9 @@ type: hacks
         <div class="unit" id="unit6">
             <h2>Unit 6: Arrays</h2>
             <ul>
-                <li>Array Declaration and Initialization: Learn how to declare and initialize arrays.</li>
-                <li>Array Manipulation: Explore techniques for accessing and modifying array elements.</li>
-                <li>Multi-Dimensional Arrays: Understand the use of 2D arrays and their applications.</li>
+                <li><strong>Array Declaration and Initialization:</strong> Learn how to declare and initialize arrays.</li>
+                <li><strong>Array Manipulation:</strong> Explore techniques for accessing and modifying array elements.</li>
+                <li><strong>Multi-Dimensional Arrays:</strong> Understand the use of 2D arrays and their applications.</li>
             </ul>
             <button class="info-btn" data-link="https://eshaank1.github.io/csa/csa/unit6-p1/">More Info</button>
         </div>
@@ -118,9 +118,9 @@ type: hacks
         <div class="unit" id="unit7">
             <h2>Unit 7: ArrayLists</h2>
             <ul>
-                <li>ArrayList Basics: Understand how to use ArrayLists for dynamic data storage.</li>
-                <li>Common Methods: Learn about common ArrayList methods (add, remove, get, size).</li>
-                <li>Iteration: Use loops and enhanced for loops to iterate through ArrayLists.</li>
+                <li><strong>ArrayList Basics:</strong> Understand how to use ArrayLists for dynamic data storage.</li>
+                <li><strong>Common Methods:</strong> Learn about common ArrayList methods (add, remove, get, size).</li>
+                <li><strong>Iteration:</strong> Use loops and enhanced for loops to iterate through ArrayLists.</li>
             </ul>
             <button class="info-btn" data-link="https://eshaank1.github.io/csa/csa/unit7-p1/unit7-homepage">More Info</button>
         </div>
@@ -128,9 +128,9 @@ type: hacks
         <div class="unit" id="unit8">
             <h2>Unit 8: 2D Arrays</h2>
             <ul>
-                <li>2D Array Usage: Explore the creation and manipulation of two-dimensional arrays.</li>
-                <li>ArrayList of Objects: Learn how to create and manage ArrayLists containing objects.</li>
-                <li>Nested Loops: Understand the use of nested loops for working with 2D arrays and ArrayLists of objects.</li>
+                <li><strong>2D Array Usage:</strong> Explore the creation and manipulation of two-dimensional arrays.</li>
+                <li><strong>ArrayList of Objects:</strong> Learn how to create and manage ArrayLists containing objects.</li>
+                <li><strong>Nested Loops:</strong> Understand the use of nested loops for working with 2D arrays and ArrayLists of objects.</li>
             </ul>
             <button class="info-btn" data-link="https://eshaank1.github.io/csa/unit8lesson-p1">More Info</button>
         </div>
@@ -138,9 +138,9 @@ type: hacks
         <div class="unit" id="unit9">
             <h2>Unit 9: Inheritance</h2>
             <ul>
-                <li>Inheritance Basics: Understand the concept of inheritance and its purpose in object-oriented programming.</li>
-                <li>Super and Subclass Relationships: Learn how to create subclasses and use the super keyword.</li>
-                <li>Method Overriding: Explore method overriding and its significance in polymorphism.</li>
+                <li><strong>Inheritance Basics:</strong> Understand the concept of inheritance and its purpose in object-oriented programming.</li>
+                <li><strong>Super and Subclass Relationships:</strong> Learn how to create subclasses and use the super keyword.</li>
+                <li><strong>Method Overriding:</strong> Explore method overriding and its significance in polymorphism.</li>
             </ul>
             <button class="info-btn" data-link="https://eshaank1.github.io/csa/inheritance">More Info</button>
         </div>

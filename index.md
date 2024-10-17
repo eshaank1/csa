@@ -81,6 +81,8 @@ hide: true
   <button onclick='window.location.href="{{ site.baseurl }}/2024/09/12/HTMLBasics_IPYNB_2_.html"'>HTML Basics</button>
   <br>
   <button onclick='window.location.href="{{ site.baseurl }}/about"'>About Me</button>
+  <br>
+  <button onclick='window.location.href="{{ site.baseurl }}/2024/10/09/CBUnitsOverview.html"'>CB Units Study</button>
 </div>
 
 <script>

@@ -132,7 +132,7 @@ Accomplished: Exactly what I planned, except the formatting is still a bit off (
             margin-top: 20px;
         }
 
-        /* Loading spinner styles */
+        /* Loading spinner styles */  new infosec
         .loader {
             border: 6px solid #f3f3f3;
             border-top: 6px solid #009688;

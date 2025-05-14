@@ -98,7 +98,8 @@ Accomplished: Exactly what I planned, except the formatting is still a bit off (
             padding: 0;
         }
 
-        .song-item {
+        .song-item { 
+            //width changes
             margin: 20px 0;
             display: flex;
             flex-direction: column;
